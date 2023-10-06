@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: beige;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 48px;
+  color: rgb(17, 3, 137);
+}
+
+.timer {
+  font-size: 120px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: opacity 0.4s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+#start {
+  background-color: rgb(5, 162, 89);
+}
+
+#stop {
+  background-color: red;
+}
+
+#reset {
+  background-color: rgb(186, 193, 186);
+}
